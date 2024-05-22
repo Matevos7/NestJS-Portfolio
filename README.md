@@ -46,7 +46,7 @@ Try to:
 
 Enter the MySQL container:
 ```bash
-$ docker-compose -f mysql.yml exec db bash
+$ sudo docker compose -f mysql.yml exec db bash
 ```
 Access the MySQL command line:
 ```bash
