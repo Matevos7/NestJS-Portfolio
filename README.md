@@ -20,9 +20,6 @@ Make sure to have docker installed
 # docker-compose db
 $ sudo docker compose -f mysql.yml up
 
-# docker-compose db
-$ sudo docker compose -f mysql.yml up
-
 # development
 $ npm run start
 
