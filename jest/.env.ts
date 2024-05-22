@@ -1,0 +1,17 @@
+process.env.APP_NAME="BookApp"
+process.env.APP_VERSION="1.0"
+process.env.PORT="5000"
+process.env.NODE_ENV="development"
+process.env.ENVIRONMENT="development"
+
+process.env.DATABASE_HOST="localhost"
+process.env.DATABASE_PORT="3306"
+process.env.DATABASE_USER="root"
+process.env.DATABASE_PASSWORD="rootpassword"
+process.env.DATABASE_NAME="book_management"
+process.env.DB_SYNC="true"
+
+process.env.JWT_SECRET="fL5iGHXq5P2s5oM6kJTdnO5qH"
+process.env.JWT_REFRESH_SECRET="fL5iGHXq5P2s5oM6kJTdnO5fg"
+process.env.JWT_EXPIRES_IN="500000s"
+process.env.JWT_REFRESH_EXPIRES_IN="500000000s" 
