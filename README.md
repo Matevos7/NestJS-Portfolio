@@ -107,7 +107,7 @@ $ npm run test:cov
 ## Test environment keys
 
 
-Please be sure to have your environment keys in the jest/.env.ts file(The file is ignored in git).
+Please be sure to have your environment keys in the jest/.env.ts file.
 Example format of the enviroment key.
 
 jest/.env.ts
