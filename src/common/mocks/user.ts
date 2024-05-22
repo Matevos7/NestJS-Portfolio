@@ -2,7 +2,7 @@ import { User } from "@common/database/entities";
 import { COUNTRY } from "./country";
 import { Roles } from "@common/enums";
 
-export const USER_ID: number = 1;
+export const USER_ID = 1;
 
 export const USER: User = {
   id: USER_ID,
@@ -14,6 +14,6 @@ export const USER: User = {
   password: 'hash1234!',
   country: COUNTRY,
   role: Roles.USER
-}
+};
 
-export const USERS: User[] = [USER]
+export const USERS: User[] = [USER];

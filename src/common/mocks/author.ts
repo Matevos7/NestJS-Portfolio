@@ -2,12 +2,12 @@ import { Author } from "@common/database/entities";
 import { USER } from "./user";
 import { ICreateAuthor } from "@common/models";
 
-const name: string = 'Author';
-const newName: string = 'Updated Author';
-const biography: string = 'long biography';
-const birthday: string = '01/01/2000'
+const name = 'Author';
+const newName = 'Updated Author';
+const biography = 'long biography';
+const birthday = '01/01/2000';
 
-export const AUTHOR_ID: number = 1;
+export const AUTHOR_ID = 1;
 
 export const AUTHOR: Author = {
   id: AUTHOR_ID, name,
@@ -16,14 +16,14 @@ export const AUTHOR: Author = {
   biography,
   birthday,
   user: USER
-}
+};
 
-export const AUTHORS: Author[] = [AUTHOR]
+export const AUTHORS: Author[] = [AUTHOR];
 
 export const CREATE_AUTHOR: ICreateAuthor = {
   name,
   biography,
   birthday
-}
+};
 
-export const UPDATE_AUTHOR: Partial<ICreateAuthor> = { name: newName }
+export const UPDATE_AUTHOR: Partial<ICreateAuthor> = { name: newName };

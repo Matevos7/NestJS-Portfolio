@@ -10,6 +10,6 @@ export const COUNTRY: Country = {
   continent: 'Asia',
   phoneCode: '374',
   currency: 'Dram'
-}
+};
 
-export const COUNTRIES: Country[] = [COUNTRY]
+export const COUNTRIES: Country[] = [COUNTRY];
