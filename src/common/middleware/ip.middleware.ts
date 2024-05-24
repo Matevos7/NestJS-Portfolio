@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { GenericLogger } from '@common/helpers';
+import { GenericHelpers } from '@common/helpers';
 import { Injectable, NestMiddleware } from '@nestjs/common';
 import requestIp from 'request-ip';
 
-const logger = new GenericLogger().logger('IpMiddleware');
+const logger = GenericHelpers.logger('IpMiddleware');
 
 @Injectable()
 export class IpMiddleware implements NestMiddleware {
